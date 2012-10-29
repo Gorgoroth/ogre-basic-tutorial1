@@ -1,0 +1,8 @@
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/.//media/packs/SdkTrays.zip
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/.//media/materials/scripts/Ogre.material
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/.//media/materials/textures/spheremap.png
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/.//media/materials/textures/tusk.jpg
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/.//media/materials/textures/GreenSkin.jpg
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/.//media/models/ogrehead.mesh
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/bin/plugins.cfg
+/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/bin/resources.cfg

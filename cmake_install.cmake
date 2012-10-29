@@ -2,7 +2,7 @@
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/vk/Games/ogre3d/ogre-test/dist")
+  SET(CMAKE_INSTALL_PREFIX "/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,7 +40,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
            FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OgreApp"
            RPATH "")
     ENDIF()
-    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vk/Games/ogre3d/ogre-test/dist/bin/OgreApp")
+    FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/vk/Games/ogre3d/ogre-basic-tutorial1/dist/bin/OgreApp")
     IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OgreApp" AND
        NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OgreApp")
       FILE(RPATH_REMOVE
@@ -73,7 +73,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/vk/Games/ogre3d/ogre-test/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/vk/Games/ogre3d/ogre-basic-tutorial1/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/vk/Games/ogre3d/ogre-test/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/vk/Games/ogre3d/ogre-basic-tutorial1/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

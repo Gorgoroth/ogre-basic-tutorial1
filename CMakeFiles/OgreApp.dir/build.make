@@ -38,7 +38,7 @@ CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 CMAKE_SOURCE_DIR = /home/vk/Games/ogre3d/ogre-test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vk/Games/ogre3d/ogre-test
+CMAKE_BINARY_DIR = /home/vk/Games/ogre3d/ogre-basic-tutorial1
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OgreApp.dir/depend.make
@@ -50,8 +50,8 @@ include CMakeFiles/OgreApp.dir/progress.make
 include CMakeFiles/OgreApp.dir/flags.make
 
 CMakeFiles/OgreApp.dir/BaseApplication.cpp.o: CMakeFiles/OgreApp.dir/flags.make
-CMakeFiles/OgreApp.dir/BaseApplication.cpp.o: BaseApplication.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/ogre-test/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/OgreApp.dir/BaseApplication.cpp.o: /home/vk/Games/ogre3d/ogre-test/BaseApplication.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/ogre-basic-tutorial1/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/BaseApplication.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/BaseApplication.cpp.o -c /home/vk/Games/ogre3d/ogre-test/BaseApplication.cpp
 
@@ -73,8 +73,8 @@ CMakeFiles/OgreApp.dir/BaseApplication.cpp.o.provides: CMakeFiles/OgreApp.dir/Ba
 CMakeFiles/OgreApp.dir/BaseApplication.cpp.o.provides.build: CMakeFiles/OgreApp.dir/BaseApplication.cpp.o
 
 CMakeFiles/OgreApp.dir/TutorialApplication.cpp.o: CMakeFiles/OgreApp.dir/flags.make
-CMakeFiles/OgreApp.dir/TutorialApplication.cpp.o: TutorialApplication.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/ogre-test/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/OgreApp.dir/TutorialApplication.cpp.o: /home/vk/Games/ogre3d/ogre-test/TutorialApplication.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/vk/Games/ogre3d/ogre-basic-tutorial1/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/OgreApp.dir/TutorialApplication.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OgreApp.dir/TutorialApplication.cpp.o -c /home/vk/Games/ogre3d/ogre-test/TutorialApplication.cpp
 
@@ -127,6 +127,6 @@ CMakeFiles/OgreApp.dir/clean:
 .PHONY : CMakeFiles/OgreApp.dir/clean
 
 CMakeFiles/OgreApp.dir/depend:
-	cd /home/vk/Games/ogre3d/ogre-test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vk/Games/ogre3d/ogre-test /home/vk/Games/ogre3d/ogre-test /home/vk/Games/ogre3d/ogre-test /home/vk/Games/ogre3d/ogre-test /home/vk/Games/ogre3d/ogre-test/CMakeFiles/OgreApp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vk/Games/ogre3d/ogre-basic-tutorial1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vk/Games/ogre3d/ogre-test /home/vk/Games/ogre3d/ogre-test /home/vk/Games/ogre3d/ogre-basic-tutorial1 /home/vk/Games/ogre3d/ogre-basic-tutorial1 /home/vk/Games/ogre3d/ogre-basic-tutorial1/CMakeFiles/OgreApp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OgreApp.dir/depend
 
